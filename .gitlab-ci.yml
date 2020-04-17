@@ -8,5 +8,5 @@ before_script:
 
 job:
   stage: test
-  script: "platformio ci --board=nodemcu>"
+  script: "platformio ci --board=nodemcu"
   variables: {PLATFORMIO_CI_SRC: "src/main.cpp"}
