@@ -23,8 +23,8 @@ References:
 #define DEBUG 1
 
 // Public variables
-int lpwm = 0;
-int rpwm = 0;
+int lpwm = 0;             // Final pwm value for left motor
+int rpwm = 0;             // Final pwm value for right motor
 int len = 250;            // period in ms
 int ldir = 1;             // left motor direction
 int rdir = 1;             // right motor direction
