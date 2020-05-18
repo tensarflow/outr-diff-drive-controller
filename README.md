@@ -49,3 +49,7 @@ rosrun rosserial_python serial_node.py tcp
 
 After that, power up the microcontroller. It should automatically connect to the ros-core.
 You shoud be able to get tf transformations and visualize them in rviz.
+
+## References
+* https://link.springer.com/book/10.1007/978-3-319-62533-1
+* https://github.com/merose/diff_drive/blob/ac26b2f526657c8fab7b24a314b48158c92c6045/src/diff_drive/odometry.py
